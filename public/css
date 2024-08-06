@@ -1,1 +1,102 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #333;
+}
+
+nav ul li {
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  display: none;
+}
+
+header:hover .header-text {
+  display: block;
+}
+
+#about {
+  text-align: center;
+  margin: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.job-description {
+  font-size: 18px;
+}
+
+#work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin: 20px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image {
+  flex: 1 1 30%;
+  margin: 5px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: auto;
+}
